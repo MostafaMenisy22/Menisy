@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> انشاء حساب</title>
+    <link rel="website icon" type="png" href="photos/394A0556-1920x1281.jpg"> 
+    <link rel="stylesheet" href="css/login2.css">
+    <img src="photos\highway-pictures-2006-x-1058-1aemymwk2emdg4bj.jpg" alt="car" width="100%" height="50%">
+    <body style="background-color: black";>
+    <form action="php/regist.php" method="POST" class="form">
+        <h1> انشاء حساب </h1>
+        <input type="text" id="fName" name="fName" class="box" placeholder=" الاسم الاول" required>
+        <input type="text" id="lName" name="lName" class="box" placeholder=" الاسم الاخير" required>
+        <input type="email" id="email" name="email" class="box" placeholder=" البريد الالكتروني"  required>
+        <input type="text" id="phone" name="phone" class="box" placeholder=" رقم التليفون" minlength="1" mixlength="11">
+        <input type="password" id="password" name="password" class="box" placeholder=" كلمة السر"  required>
+        <div class="box2">
+        <input type="radio" name="choose" value="العروض">
+        <label>اريد استلام احدث العروض</label>
+          </div>
+        <div class="box2">
+        <br>
+        <input type="radio" name="choose" value="العروض">
+        <label>لا اريد استلام احدث العروض  </label>
+          </div>
+          <a href="./login.html" class="box">لدي حساب بالفعل - تسجيل الدخول</a>
+          <button class="box" type="submit">إنشاء حساب</button>
+        
+    </form>
+</head>
+<body>
+</body>
+</html>
